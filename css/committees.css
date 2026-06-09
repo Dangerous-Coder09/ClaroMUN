@@ -115,3 +115,9 @@
     box-shadow: 0 0 24px rgba(182, 139, 45, 0.28);
     border-color: var(--line-strong);
 }
+
+.committee-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
