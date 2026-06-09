@@ -91,12 +91,12 @@
 .resource-card h4,
 .resource-card h5,
 .committee-header h4 {
-    color: #e2e8f0;
+    color: var(--muted);
     margin-bottom: 12px;
 }
 
 .resource-card p {
-    color: #cbd5e1;
+    color: var(--muted);
     line-height: 1.7;
 }
 
