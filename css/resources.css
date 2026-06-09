@@ -9,12 +9,12 @@
 }
 
 .resources-hero {
-    background: radial-gradient(circle at 20% 20%, #0b2447 0%, #111827 42%, #020617 100%);
+    background: radial-gradient(circle at 20% 20%, #ffffff 0%, #efe7d6 44%, #dbe8f2 100%);
 }
 
 .section-tag {
     margin-bottom: 16px;
-    color: #00f2ff;
+    color: var(--heading);
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -23,7 +23,7 @@
 .page-hero h2 {
     max-width: 820px;
     font-size: 3rem;
-    color: #00f2ff;
+    color: var(--heading);
 }
 
 .hero-copy {
@@ -31,7 +31,7 @@
     margin-top: 18px;
     font-size: 1.1rem;
     line-height: 1.7;
-    color: #cbd5e1;
+    color: var(--muted);
 }
 
 .resources-section,
@@ -40,7 +40,7 @@
 }
 
 .committee-resources-section {
-    background: rgba(11, 36, 71, 0.35);
+    background: var(--section-bg);
 }
 
 .section-heading {
@@ -50,13 +50,13 @@
 
 .section-heading h3 {
     font-size: 2rem;
-    color: #00f2ff;
+    color: var(--heading);
     margin-bottom: 10px;
 }
 
 .section-heading p,
 .committee-header p {
-    color: #cbd5e1;
+    color: var(--muted);
     line-height: 1.6;
 }
 
@@ -73,8 +73,8 @@
 }
 
 .resource-card {
-    background: rgba(30, 41, 59, 0.62);
-    border: 1px solid rgba(56, 189, 248, 0.30);
+    background: var(--surface-strong);
+    border: 1px solid var(--line);
     backdrop-filter: blur(10px);
     border-radius: 18px;
     padding: 28px;
@@ -84,8 +84,8 @@
 
 .resource-card:hover {
     transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 0 24px rgba(0, 242, 255, 0.45);
-    border-color: rgba(0, 242, 255, 0.6);
+    box-shadow: 0 0 24px rgba(182, 139, 45, 0.28);
+    border-color: var(--line-strong);
 }
 
 .resource-card h4,
@@ -103,7 +103,7 @@
 .resource-list {
     margin-top: 18px;
     padding-left: 18px;
-    color: #cbd5e1;
+    color: var(--muted);
     line-height: 1.8;
 }
 
@@ -114,8 +114,8 @@
     margin-bottom: 8px;
     padding: 6px 12px;
     border-radius: 999px;
-    background: rgba(0, 242, 255, 0.16);
-    color: #67e8f9;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -136,10 +136,10 @@
 .resource-placeholder {
     margin-top: 18px;
     padding: 14px 16px;
-    border: 1px dashed rgba(0, 242, 255, 0.6);
+    border: 1px dashed var(--line-strong);
     border-radius: 12px;
-    background: rgba(2, 6, 23, 0.55);
-    color: #67e8f9;
+    background: rgba(255, 255, 255, 0.78);
+    color: var(--accent-deep);
     font-weight: 600;
 }
 
