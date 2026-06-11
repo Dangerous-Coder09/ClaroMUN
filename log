@@ -1,4 +1,16 @@
 Updates Required:
+<<<<<<< HEAD
 1. Need to put the "register" in all webpages
 2. Put picture in sec-gen section in Secreteriat
 3. Enter all the required pdfs
+=======
+Replace the Google Forms placeholder registration URL.
+
+Remove visible placeholders before launch.
+
+Upload real PDF resources or hide resource slots until ready.
+
+Improve the README.
+
+Clean up or update the log file.
+>>>>>>> a79ad2856dc12abdb4d422c1a95b1068654aa360
