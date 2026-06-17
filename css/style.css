@@ -349,3 +349,8 @@ footer {
         padding: 24px;
     }
 }
+
+a
+{
+    text-decoration: none;
+}
