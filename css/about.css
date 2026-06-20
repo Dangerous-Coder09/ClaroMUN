@@ -167,3 +167,21 @@
     box-shadow: 0 0 22px rgba(182, 139, 45, 0.28);
     border-color: var(--line-strong);
 }
+
+/* Custom Wide Card Configuration */
+.technical-card-wide {
+    grid-column: span 3; /* Spans across all 3 grid slots */
+    text-align: center;  /* Centers the text content horizontally */
+    padding: 40px 20px;  /* Adds generous breathing room inside the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Keeps the layout perfectly responsive on mobile devices and iPads */
+@media (max-width: 900px) {
+    .technical-card-wide {
+        grid-column: span 1; /* Automatically drops back to standard single column width */
+    }
+}
